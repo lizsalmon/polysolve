@@ -10,10 +10,13 @@ readme = "README.md"
 description = ""
 license = {text = "BSD-3-Clause"}
 
-#keywords = [...]
+keywords = [""]
 dependencies = ["numpy"]
-#classifiers = [...]
+classifiers = [""]
 dynamic = ["version"]
+
+[project.optional-dependencies]
+docs = ["sphinx","sphinx_rtd_theme","sphinx_autodoc_typehints"]
 
 [project.urls]
 Homepage="https://github.com/lizsalmon/polysolve"
